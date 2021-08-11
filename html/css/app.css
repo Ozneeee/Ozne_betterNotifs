@@ -1,0 +1,27 @@
+
+/*  Merci Ozne#4870 */
+
+/* Vive le js, fuck la commu fivem */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+
+html {overflow: hidden;}
+#cursor {position: absolute; z-index: 999999; display:  none; }
+
+#hud { position      : absolute; display       : flex; flex-direction: row; font-family: 'Teko', sans-serif; font-size     : 25px; color         : white; padding       : 4px;
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+ text-align      : center; top             : 5px; left            : 50%; transform       : translate(-50%); background-color: rgba(0, 0, 0, 0.5); border-radius   : 4px;
+}
+#hud div { padding: 3px 8px 3px 8px; line-height: 16px; white-space: nowrap; }
+#hud div img { vertical-align: top; margin-right: 5px; }
+#inventory_notifications { display: inline; font-family: 'Teko', sans-serif; position   : absolute; right      : 40; bottom     : 40; font-size  : 2.2em; font-weight: bold; color      : #000000; text-shadow: 1px 1px 2px whitesmoke; letter-spacing: 1px; text-transform: uppercase; background: linear-gradient(45deg, teal 50%, #5fa07f 50%); border: 1px solid white; border-radius: 16px; padding: 8px; opacity: 0; }
+.menu { font-family: 'Teko', sans-serif; min-width : 400px; min-height : 250px; color : #fff; position : absolute; left : 40; top : 0; }
+.menu .head { font-family: 'Teko', sans-serif; font-size: 28px; padding: 10px; background: #1a2632; border-bottom: 3px solid #BC1635; border-radius: 10px 10px 0 0; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0; -o-border-radius: 10px 10px 0 0; box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28); -webkit-box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28); -moz-box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28); -o-box-shadow: inset 0px 1px 0 rgba(255, 255, 255, 0.28); box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.4); }
+.menu .head span { font-family: 'Teko', sans-serif; font-size: 28px; padding-left: 15px; padding-top: 6px; }
+.menu .menu-items .menu-item { font-family: 'Teko', sans-serif; font-size       : 14px; height          : 40px; display         : block; background-color: #9db7d1; box-shadow      : inset 1px 0px 0px 1px #b8b8b8; height          : 32px; line-height     : 32px; color           : #1a2632; text-align      :  center; }
+.menu .menu-items .menu-item.selected { background-color: #ccc; }
